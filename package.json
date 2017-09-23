@@ -1,6 +1,6 @@
 {
   "name": "with-stacktrace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "catch errors of asynchronous functions with prior stacktrace",
   "main": "index.js",
   "devDependencies": {
