@@ -1,0 +1,33 @@
+{
+  "name": "with-stacktrace",
+  "version": "1.0.0",
+  "description": "catch errors of async functions with prior stacktrace",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sagiavinash/with-stacktrace.git"
+  },
+  "keywords": [
+    "javascript",
+    "debugging",
+    "error",
+    "stacktrace",
+    "async"
+  ],
+  "author": "sagiavinash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagiavinash/with-stacktrace/issues"
+  },
+  "homepage": "https://github.com/sagiavinash/with-stacktrace#readme"
+}
